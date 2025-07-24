@@ -95,4 +95,5 @@ This project is for academic and educational use only. Feel free to use or adapt
 ## 👤 Author
 
 **Haveela Gadde**  
-MSc Data Science   
+MSc Data Science  
+Project Trainee, ISRO  
