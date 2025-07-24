@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Treat all text files as UTF-8 and normalize line endings to LF
+* text=auto eol=lf
+
+# Jupyter Notebooks - mark as text to avoid binary diffing
+*.ipynb text
+
+# CSV files - treat as text
+*.csv text
+
+# Python scripts - enforce line endings
+*.py text eol=lf
+
+# Markdown and text files
+*.md text
+*.txt text
+
+# Ignore OS-generated files
+*.DS_Store binary
+Thumbs.db binary
+
+# Optional - ensure Windows/Linux compatibility
+*.sh text eol=lf
+*.bat text eol=crlf
